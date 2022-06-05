@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  background-color: #cfe6042f;
+  padding: 50px;
+}
+
+h1, h2, h3, p {
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+}
+h2{
+  color: red;
+  font-size: 30px;
+}
+.Footer{
+  color: rgb(12, 12, 79);
+  font-size: 15px;
+  font-family: 'Josefin Sans', sans-serif;
+  letter-spacing: 2px;
+}
+
+form {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+input {
+  border: 1px solid #ffffff;
+  padding: 10px;
+  font-size: 20px;
+  font-family: 'Josefin Sans', sans-serif;
+
+}
+input:focus {
+  outline: none;
+}
+
+.form-control {
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  width: 400px;
+}
+.form-control:hover{
+  background-color: #e7d6d6ec;
+  transition: 0.5s;
+  width: 420px;
+}
+
+.btn {
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 20px;
+  cursor: pointer;
+}
+.btn:hover{
+  background-color: rgb(255, 247, 0);
+  color: rgb(0, 0, 0);
+  transition: 1s;
+}
+
+.recipes {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.card {
+  width: 200px;
+  background-color: white;
+  margin: 10px;
+  border-radius: 5px;
+  padding-bottom: 10px;
+}
+
+.card-image {
+  width: 100%;
+}
+
+.card-body {
+  padding: 10px;
+  text-align: center;
+}
+
+.category {
+  color: #710c36;
+}
+
+a {
+  background-color: #ee8a067c;
+  color: inherit;
+  padding: 10px;
+  border-radius: 20px;
+  text-decoration: none;
+  font-family: 'Josefin Sans', sans-serif;
+  
+}
+a:hover{
+  background-color: #f7f0e77c;
+  border: 1px solid red;
+  transition: 1s;
+}
